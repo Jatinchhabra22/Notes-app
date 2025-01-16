@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-r from-purple-300 to-teal-500">   
+
+<div class="container flex flex-col  p-[100px]"> 
+
+   <div class="one flex items-center">
+    <img src="/images/notes.png" class="w-[60px] h-[70px]">
+    <h1 class="text-white text-5xl "> Notes </h1>
+   </div>
+
+    <div class="two flex items-center mt-4">
+        <button class="btn flex bg-violet-700 p-4 rounded-3xl text-white text-center"><img src="/images/edit.png" class="w-[30px] mr-2">New notes</button>
+    </div>
+
+   
+    
+   <div class="notes-container">
+
+    </div>
+
+    <style>
+        .input-box {
+            position: relative;
+            background: #fff;
+            color: #333;
+            width: 100%;
+            max-width: 500px;
+            min-width: 150px;
+            padding: 20px;
+            outline: none;
+            margin: 20px 0;
+        }
+
+        .input-box img{
+            width: 25px;
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            cursor: pointer;
+        }
+
+
+    </style>
+
+  
+
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
